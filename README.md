@@ -32,6 +32,13 @@ A zero-dependency security monitoring script that aggregates local authenticatio
 * **Linux Scripting Frameworks:** Building automated utilities using the right native binary for modern distros (like `ss` instead of deprecated `netstat`).
 * **Technical Documentation:** Writing production-grade project readmes, setup guides, and log outputs.
 
+
+### 🌐 [Active Network Service Auditor](https://github.com)
+A custom vulnerability scanner extension built for the Nmap Scripting Engine (NSE) in native Lua.
+* Automated network target probing by engineering precise, port-specific execution hooks (`portrule`).
+* Integrated Nmap's `http` library to pull remote device data and scan for unencrypted transmission paths.
+* Parsed remote web-server application payloads to expose vulnerable backend administrative titles.
+
 ---
 
 ## 📬 Connect With Me
