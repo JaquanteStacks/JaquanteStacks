@@ -1,16 +1,39 @@
-## Hi there 👋
+# Hi, I'm Datavis Battles (JaquanteStacks) 👋
+### Systems Automation & Linux Support Specialist
+Building clean, host-based security tools, lightweight automation pipelines, and infrastructure auditing scripts. Focused on high-efficiency backend execution, Linux systems engineering, and remote infrastructure administration.
 
-<!--
-**JaquanteStacks/JaquanteStacks** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## 🛠 Technical Stack
+* **Operating Systems:** Linux (Fedora 44, Ubuntu/Debian), Bash CLI, Windows.
+* **Scripting & Automation:** Lua (.lua), Python (.py), System Configurations (.conf).
+* **Networking & Security:** TCP/IP Socket Auditing, Systemd Journal Analysis, Help Desk Tier 1/2.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Featured Open-Source Projects
+
+### 🛡️ [Live Local Port Auditor](https://github.com)
+A host-based networking tool written in native Lua that benchmarks active TCP listening sockets.
+* Interfaced directly with modern kernel utilities (`ss`) to identify service exposures like SSH or HTTP.
+* Processes network sockets line-by-line via streaming inputs (`io.lines`) for an O(1) memory footprint.
+* Eliminated costly inner-loops by converting asset arrays into deterministic, O(1) hash maps.
+
+### 📊 [Hardened Linux Security Log Analyzer](https://github.com/JaquanteStacks/Log_Analyzer)
+A zero-dependency security monitoring script that aggregates local authentication events.
+* Queries the systemd logging subsystem (`journalctl`) directly to scan historical events for brute-force patterns.
+* Leverages optimized Lua pattern-matching to extract and isolate compromised or targeted user strings.
+* Aggregates threat matrices into local key-value dictionaries to surface compromised target accounts.
+
+---
+
+## 💼 Core Competencies
+* **Defensive Error Handling:** Validating script input streams and handling system privilege blocks safely.
+* **Linux Scripting Frameworks:** Building automated utilities using the right native binary for modern distros (like `ss` instead of deprecated `netstat`).
+* **Technical Documentation:** Writing production-grade project readmes, setup guides, and log outputs.
+
+---
+
+## 📬 Connect With Me
+* **Email:** hadirshuja@gmail.com
+* **GitHub Portfolio:** [github.com/JaquanteStacks](https://github.com/JaquanteStacks)
