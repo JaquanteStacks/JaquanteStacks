@@ -39,6 +39,12 @@ A custom vulnerability scanner extension built for the Nmap Scripting Engine (NS
 * Integrated Nmap's `http` library to pull remote device data and scan for unencrypted transmission paths.
 * Parsed remote web-server application payloads to expose vulnerable backend administrative titles.
 
+### 🛡️ [Host-Based Malware Signature Scanner](https://github.com)
+An endpoint integrity assessment tool built in Python that scans directories for known cyber threats.
+* Engineered block-buffered cryptographic file streams (`SHA-256`) to maintain an O(1) processing footprint.
+* Eliminated multi-file processing scaling limits by matching file records via dictionary hash tables.
+* Constructed a recursive filesystem auditor capable of handling restricted directories safely.
+
 ---
 
 ## 📬 Connect With Me
